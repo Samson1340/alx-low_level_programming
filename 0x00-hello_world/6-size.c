@@ -7,7 +7,7 @@
 
 /**
 * main - this program display the size of the different data types
-* return: 0 for main function
+* Return: 0 for main function
 */
 
 int main(void)
