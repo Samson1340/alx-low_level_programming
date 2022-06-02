@@ -10,6 +10,9 @@
 */
 
 int main(void)
+/*
+* Main- function is the starting of the code
+*/
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
