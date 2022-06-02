@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-/*
+/**
 * main - this is the main function of the program
 * Return: 0 for main function
 */
