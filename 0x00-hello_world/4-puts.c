@@ -1,12 +1,13 @@
+/*                                                                                      
+*the file :4-puts.c                                                                     
+*Auth: Samson                                     
+*/   
 #include <stdio.h>
 /*
-*the file :4-puts.c 
-*Auth: Samson
-*/
+*this is the main function of the program
+*/  
 int main(void)
-/**
- *this is the main function of the program
-*/
+
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
