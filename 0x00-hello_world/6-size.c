@@ -1,5 +1,5 @@
 /*
-* File: 6-size.c 
+* File: 6-size.c
 * Author: Samson
 */
 
