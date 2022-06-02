@@ -1,0 +1,16 @@
+/*
+* the file :5-printf.c
+* Auth: Samson
+*/
+
+#include <stdio.h>
+
+/*
+* main:this is the main function of the program
+*/
+
+int main(void) /* Main- function is the starting of the code */
+{
+printf("with proper grammar, but the outcome is a piece of art,\n");
+return (0);
+}             
