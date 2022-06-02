@@ -7,13 +7,11 @@
 
 /**
 * main - this is the main function of the program
+* return: 0 for main function.
 */
 
 int main(void)
-
-/** 
-* return: 0 all time.
-*/
+  
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
