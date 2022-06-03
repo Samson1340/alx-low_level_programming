@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* File - 101-print_comb4.c
+* File - 102-print_comb5.c
 * Author - Samson
 */
 
@@ -13,23 +13,21 @@ int main(void)
 {
 int n;
 int m;
-int x;
-for (n = 0; n < 10; n++)
+for (n = 0; n <= 98; n++)
 {
-for (m = n + 1; m < 10; m++)
+for (m = n + 1; m <= 99; m++)
 {
-for (x = m + 1; x < 10; x++)
-{
+putchar((n / 10) + '0');
 putchar((n % 10) + '0');
+putchar((' ');
+putchar((m / 10) + '0');
 putchar((m % 10) + '0');
-putchar((x % 10) + '0');
-if (n == 7)
+if (n == 98 && m == 99)
 {
 continue;
 }
 putchar(',');
 putchar(' ');
-}
 }
 }
 putchar('\n');
