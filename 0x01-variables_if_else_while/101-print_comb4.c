@@ -5,7 +5,7 @@
 */
 
 /**
-* main - the main function of the program 
+* main - the main function of the program
 * Return: 0 for all function
 */
 
@@ -22,7 +22,7 @@ for (x = m + 1; x < 10; x++)
 {
 putchar((n % 10) + '0');
 putchar((m % 10) + '0');
-putchar((x % 10) + '0'); 
+putchar((x % 10) + '0');
 if (n == 7)
 {
 continue;
