@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
 * File - 5-print_numbers.c
-* Author - Samson 
+* Author - Samson
 */
 
 /**
