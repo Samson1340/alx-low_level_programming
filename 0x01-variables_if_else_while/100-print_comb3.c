@@ -19,7 +19,7 @@ for (m = n+1; m < 10; m++)
 {
 putchar((n % 10) + '0');
 putchar((m % 10) + '0');
-if (n == 9)
+if (n == 8)
 {
 continue;
 }
