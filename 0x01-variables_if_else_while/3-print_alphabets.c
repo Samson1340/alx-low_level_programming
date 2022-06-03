@@ -5,7 +5,7 @@
 */
 
 /**
-* main - the main function of the program 
+* main - the main function of the program
 * Return: 0 for all
 */
 int main(void)
@@ -21,4 +21,4 @@ putchar(ch);
 }
 putchar('\n');
 return (0);
-}              
+}
