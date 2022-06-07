@@ -8,8 +8,10 @@
 * Return: 0 for the all function 
 */
 
-int main(void)
+int _putchar(char c)
+  
 {
-  putchar("_putchar");
-  return(0);
+  
+  return (write(1, &c, 1));
+  
 }
