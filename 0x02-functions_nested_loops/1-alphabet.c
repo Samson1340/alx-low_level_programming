@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /*
 * File - the function print alphabet
 * Author - Samson
