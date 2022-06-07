@@ -6,7 +6,7 @@
 
 /**
 * _islower - check lowercase
-* @c: declartion 
+* @c: declartion
 * Return: 0 if it is not 1 when it is lowercase
 */
 
