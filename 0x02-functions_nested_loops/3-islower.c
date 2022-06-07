@@ -5,7 +5,8 @@
 */
 
 /**
-* int _islower - check lowercase 
+* _islower - check lowercase
+* @c: declartion 
 * Return: 0 if it is not 1 when it is lowercase
 */
 
