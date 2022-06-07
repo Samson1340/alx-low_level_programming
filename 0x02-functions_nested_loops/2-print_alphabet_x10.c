@@ -1,0 +1,24 @@
+#include "main.h"
+/*
+* File - the function print alphabe
+*/
+
+/**
+* print_alphabet - prints the alphabet
+* Return: 0 for the function
+*/
+
+void print_alphabet(void)
+{
+char ch = 'a';
+int x = 1;
+for (x = 1; x < 10; x++) 
+{
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+_putchar(ch);
+}
+}
+_putchar('\n');
+}
+
