@@ -11,11 +11,10 @@
 
 int _islower(int c)
 {
-char c = 'c';
 char ch = 'a';
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (ch == c)
+if (ch == 'c')
 {
 return (1);
 }
