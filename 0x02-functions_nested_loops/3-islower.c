@@ -11,16 +11,8 @@
 
 int _islower(int c)
 {
-char ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-if (ch == 'c')
-{
+if (c >= 'a' && c <= 'z')
 return (1);
-}
 else
-{
 return (0);
-}
-}
 }
