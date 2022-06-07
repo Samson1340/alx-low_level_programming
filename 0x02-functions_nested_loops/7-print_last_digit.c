@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_last_digit - the function
-* @n: decelaration 
+* @n: decelaration
 * Return: 0 and 1
 */
 
