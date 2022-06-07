@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /*
 * File - the function print alphabet
 * Author - Samson
@@ -9,7 +10,7 @@
 * Return: 0 for the function
 */
 
-print_alphabet(void)
+void print_alphabet(void)
 {
   char ch = 'a';
   for (ch = 'a'; ch <= 'z'; ch++)
