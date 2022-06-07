@@ -9,7 +9,7 @@
 * Return: 0 for the function
 */
 
-void print_alphabet(void)
+print_alphabet(void)
 {
   char ch = 'a';
   for (ch = 'a'; ch <= 'z'; ch++)
@@ -17,5 +17,4 @@ void print_alphabet(void)
       putchar(ch);
     }
   putchar('\n');
-  return (0);
 }
