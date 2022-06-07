@@ -4,8 +4,7 @@
 * Return: 0 and 1
 */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-int a;
-return (a%2);
+return (n%10);
 }
