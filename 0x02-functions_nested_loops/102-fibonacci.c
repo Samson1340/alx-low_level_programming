@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
-* main - the main function 
-* @num1: number one 
-* @num2: number two 
-* @sum: the sum 
-* @count: the count
+* main - the main function
+* @num1: number one
+* @num2: number two
+* Return: 0 and 1
 */
 
 int main(void)
