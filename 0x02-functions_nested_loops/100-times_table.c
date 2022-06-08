@@ -20,9 +20,11 @@ for (num1 = 0; num1 <= n; num1++)
 for (num2 = 0; num2 <= n; num2++)
 {
 mult = num1 * num2;
-printf("%d, ", mult);
+_putchar(mult);
+_putchar(',');
+_putchar(' ');
 }
-printf("\n");
+_putchar("\n");
 }
 }
 }
