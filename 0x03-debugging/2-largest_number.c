@@ -5,7 +5,6 @@
 * @a: first integer
 * @b: second integer
 * @c: third integer
-* @largest: the largest
 * Return: largest number
 */
 
@@ -29,7 +28,6 @@ else
 {
 largest = b;
 }
-
 
 return (largest);
 }
