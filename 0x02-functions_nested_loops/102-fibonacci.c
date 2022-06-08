@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
 * main - the main function
-* @num1: number one
-* @num2: number two
 * Return: 0 and 1
 */
 
