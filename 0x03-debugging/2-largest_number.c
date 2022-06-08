@@ -5,7 +5,6 @@
 * @a: first integer
 * @b: second integer
 * @c: third integer
-* @largest: largest num
 * Return: largest number
 */
 
@@ -21,13 +20,13 @@ else if (b > a && a > c)
 {
 largest = b;
 }
-else if (a == b)
+else if (c > b)
 {
-largest = a;
+largest = c;
 }
 else
 {
-largest = c;
+largest = b;
 }
 
 return (largest);
