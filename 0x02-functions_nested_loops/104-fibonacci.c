@@ -7,6 +7,7 @@ int main(void)
 {
 int count;
 unsigned long num1 = 1, num2 = 2, sum;
+printf("%lu, %lu, ", num1, num2);
 for (count = 0; count < 98; count++)
 {
 sum = num1 + num2;
