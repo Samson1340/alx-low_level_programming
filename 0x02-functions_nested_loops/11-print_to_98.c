@@ -14,18 +14,14 @@ if (n <= 98)
 {
 for (start = n; start <= 98; start++)
 {
-printf(start);
-printf(',');
-printf(' ');
+printf("%d, ", start);
 }
 }
 else
 {
 for (start = n; start >= 98; start--)
 {
-printf(start);
-printf(',');
-printf(' ');
+printf("%d, ", start);
 }
 }
 }
