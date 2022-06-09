@@ -1,5 +1,4 @@
-
-0;276;0c#include "main.h"
+#include "main.h"
 
 /**
 * _isupper - the uppercase checker function
