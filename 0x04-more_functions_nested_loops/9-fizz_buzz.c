@@ -25,11 +25,10 @@ printf("Buzz");
 }
 else
 {
-printf("%d", num);
+printf("%i", num);
 }
-if (num == 100)
+if (num != 100)
 {
-continue;
 putchar(' ');
 }
 num++;
