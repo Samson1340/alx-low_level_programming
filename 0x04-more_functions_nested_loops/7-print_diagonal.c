@@ -3,6 +3,7 @@
 
 /**
 * print_diagonal - prin diagonal line
+* @n: number of diagonals
 */
 
 void print_diagonal(int n)
