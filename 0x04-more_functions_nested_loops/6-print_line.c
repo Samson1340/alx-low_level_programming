@@ -3,7 +3,6 @@
 
 /**
 * print_line - the function to print line
-* @ch: for line count
 * @n: number of the line
 */
 
