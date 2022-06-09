@@ -3,8 +3,6 @@
 
 /**
 * more_numbers - the display 0 to 14
-* @count: to count the number of line
-* @n: the first number
 */
 
 void more_numbers(void)
