@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_numbers - the display 0 to 9
+* print_most_numbers - the display 0 to 9
 * @n: the first number
 */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 int n;
 for(n = 0; n <= 9; n++)
