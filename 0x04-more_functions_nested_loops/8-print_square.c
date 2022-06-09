@@ -17,7 +17,10 @@ for (num2 = 0; num2 < size; num2++)
 {
 putchar('#');
 }
+if (num1 == size - 1)
+continue;
 putchar('\n');
 }
 }
+putchar('\n');
 }
