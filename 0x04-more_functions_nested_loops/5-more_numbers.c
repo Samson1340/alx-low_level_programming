@@ -3,6 +3,7 @@
 
 /**
 * more_numbers - the display 0 to 14
+* @count: to count the number of line
 * @n: the first number
 */
 
@@ -13,7 +14,7 @@ int n;
 
 for (count = 0; count < 10; count++)
 {
-for(n = 0; n <= 14; n++)
+for (n = 0; n <= 14; n++)
 {
 putchar((n % 10) + '0');
 putchar('\n');
