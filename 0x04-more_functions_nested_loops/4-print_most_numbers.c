@@ -14,7 +14,7 @@ if (n == 2 || n == 4)
 {
 continue;
 }
-_putchar((n % 10) + '0');
+putchar((n % 10) + '0');
 }
-_putchar('\n');
+putchar('\n');
 }
