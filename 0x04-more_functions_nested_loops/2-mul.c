@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isdigit - the uppercase checker function
+* mul - A function that multiplies two no
 * @a: the first number
 * @b: the second number
 * Return: 0 and 1
