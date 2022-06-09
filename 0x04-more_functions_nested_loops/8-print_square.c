@@ -3,9 +3,6 @@
 
 /**
 * print_square - print a square
-* @size: the size of the square
-* @num1: line control
-* @num2: line2 control
 */
 
 void print_square(int size)
