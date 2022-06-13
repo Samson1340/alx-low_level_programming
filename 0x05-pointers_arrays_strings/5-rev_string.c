@@ -19,5 +19,6 @@ for (length = length; length != 0; length--)
 putchar(*s);
 s--;
 }
+putchar('\n');
 }
                                
