@@ -14,5 +14,5 @@ length++;
 
 for (ch = length - 1; ch >= 0; ch--)
 putchar(s[ch]);
-putchar('\n')
+putchar('\n');
 }
