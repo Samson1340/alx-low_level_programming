@@ -3,12 +3,11 @@
 
 /**
 * _puts - to print the string
-* @str: the pointer
+* @str: the pointe
 */
 
 void _puts(char *str)
 {
-int n;
 while(*str)
 {
 putchar(*str++);
