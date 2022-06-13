@@ -7,12 +7,8 @@
 * Return: the size of string
 */
 
-int _strlen(char *s)
-{
-int length = 0;
-while(*(s + length) != '\0')
-{
+int _strlen(char *length = 0;
+while(*s)
 length++;
-}
 return(length);
 }
