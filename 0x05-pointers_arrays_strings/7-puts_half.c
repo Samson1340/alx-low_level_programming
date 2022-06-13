@@ -14,7 +14,7 @@ n++;
 m = n / 2;
 if (n % 2)
 m += 1;
-while (m < i)
+while (m < n)
 {
 putchar(*(str + m));
 m++;
