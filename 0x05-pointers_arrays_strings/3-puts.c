@@ -9,9 +9,9 @@
 void _puts(char *str)
 {
 int n;
-for (n = 0; str[n] < '\0'; ++n)
+while(*str)
 {
-putchar(str[n]);
+putchar(*str++);
 }
 putchar('\n');
 }
