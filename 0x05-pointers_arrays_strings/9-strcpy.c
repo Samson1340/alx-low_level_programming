@@ -5,6 +5,7 @@
 * *_strcpy - the function
 * @dest: the dest
 * @src: the sourc
+* Return: 0 and 1;
 */
 
 char *_strcpy(char *dest, char *src)
