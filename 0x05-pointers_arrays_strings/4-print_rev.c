@@ -3,12 +3,12 @@
 
 /**
 * print_rev - to print the rev
-* @s: the pointer 
+* @s: the pointer
 */
 
 void print_rev(char *s)
 {
-while(*s)
+while(*s--)
 {
 putchar(*s--);
 }
