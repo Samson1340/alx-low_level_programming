@@ -9,13 +9,28 @@
 void rev_string(char *s)
 {
 int length = 0;
-for (length = 0; *s != '\0'; length++)
-  s--;
+ void rev_string(char *s)
+ {
+   int start, temp;
+   int end = 0;
 
-for (length = length; length != 0; length--)
-putchar(*s);
-s--;
+   while (*(s + end) != '\0')
+     {
+       end++;
+     }
 
-putchar('\n');
-}
+   end -= 1;
+   start = 0;
+   while (end > start)
+     {
+       temp = s[start];
+       s[start] = s[end];
+       s[end] = temp;
+       start++;
+       end--;
+     }
+
+
+
+   
                                
