@@ -10,13 +10,17 @@
 
 void reverse_array(int *a, int n)
 {
-int x[800];
-int i;
-n--;
-
-for (i = 0; i <= n; i++)
-x[i] = a[i];
-
-for (i = 0; i <= n; i++)
-a[i] = x[n - 1];
+int *ptr, i, x, m;
+ptr = a;
+for (i = 1; i < n; i++)
+{
+ptr++;
 }
+for (x = 0; x < i / 2; x++)
+{
+m = a[x];
+a[x] = *ptr;
+*ptr = m;
+ptr--;
+}
+}  
