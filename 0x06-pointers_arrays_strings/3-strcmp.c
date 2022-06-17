@@ -9,16 +9,16 @@
 
 int _strcmp(char *s1, char *s2)
 {
-int result, i;
-for (i = 0; s1[i] != '\0'; i++)
+int pr, m;
+for (m = 0; s1[m] != '\0'; m++)
 {
-if (s1[i] == s2[i])
-result = (s1[i] - '0') - (s2[i] - '0');
+if (s1[m] == s2[m])
+pr = (s1[m] - '0') - (s2[m] - '0');
 else
 {
-result = (s1[i] - '0') - (s2[i] - '0');
+pr = (s1[m] - '0') - (s2[m] - '0');
 break;
 }
 }
-return (result);
+return (pr);
 }
